@@ -1,0 +1,14 @@
+Due to the size of the Facial recognition training file it cannot be uploaded and so the application will not work if it is ran, however all of the important code is uploaded.
+
+The project has several executables, the first is a data collection file that collects a sample of images a persons face that needs to be recognised by the program. 
+This can be done for multiple people.
+
+The second executable is a training file that will train the facial recognition software to detect the faces that have been collect with the data collection file.
+This training will be used in the main file and application.
+
+The final executable is the main file which will load the training file and create an application using kivy.
+The application allows the user to take photographs that the facial recognition software will process, anyones face that is not recognised will be blurred out to protect their
+identity. 
+
+The images that have been processed by the software will be placed in a carousel wheel that the user can cycle through.
+ 
