@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Next two lines are for linking the fonts.
+    -->
+  <link href="https://fonts.googleapis.com/css?family=Damion&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+  <title>Robot Juice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Next two lines are for linking the css pages.
+  -->
+	<link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/grid.css"/>
+  <!--Next two lines are for linking the js pages.
+  -->
+  <script src="../javascript/jquery.min.js"></script>
+  <script src="../javascript/reviews.js"></script>
+ </head>
+  <body>
+    <!--This div sets the background color as grey.
+    -->
+    <div class="color">
+      <!--This div sets the max width for the content on the page.
+      -->
+    <div class="mainContainer">
+      <div id="status">Loading...</div>
+      <!--The following four lines are creating the logo.
+      -->
+    <h1>Robot <span>Juice</span></h1>
+    <div class="logo">
+    <p class="fictitious">fictitious cycle lubricants</p>
+    </div>
+    <!--The following lines until line 46 are creating the nav bar.
+    -->
+    <header class="mainNavContainer">
+      <nav class="mainNav">
+        <a href="index.html" >Home</a>
+        <a href="product.html" class="active">Products</a>
+        <a href="">Protect</a>
+        <a href="">Stockists</a>
+        <a href="">Events</a>
+        <a href="" class="reviews">Reviews</a>
+      </nav>
+  </header>
+  <!--The following div creates a container for the product section of the page.
+      In this there are three other containers, one being the three small images, another being the large image and the third is the right section where you can purchase the product.
+  -->
+  <div class="product_grid_container">
+    <span class="side_gallery_grid_container">
+        <img src="../robot-juice-images/prod-thumb1.jpg" alt="rear of a bike witht he oil" class="thumb"/>
+        <img src="../robot-juice-images/prod-thumb2.jpg" alt="bike chains" class="thumb"/>
+        <img src="../robot-juice-images/prod-thumb3.jpg" alt="oil splash on the floor" class="thumb"/>
+    </span>
+    <span class="main_gallery_grid_container">
+      <img src="../robot-juice-images/robotjuicebikeoil.jpg" alt="rear of a bike witht he oil but larger and with a shine" class="main_image"/>
+    </span>
+    <aside class="purchase">
+      <h3>Bike Oil</h3>
+      <p class="price">£99.99</p>
+      <select class="size">
+        <option>Size</option>
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+      </select>
+      <select class="size">
+        <option>Qty</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+      </select>
+      <button class="buy">BUY NOW</button>
+      <h4 class="purchase_h4">FIND NEAREST STOCKIST</h4>
+      <a href="https://outlook.live.com/owa/">
+        <img src="../robot-juice-images/email.jpg" alt="email logo" class="social"/>
+      </a>
+      <a href="https://twitter.com/explore">
+        <img src="../robot-juice-images/twitter.jpg" alt="twitter logo" class="social"/>
+      </a>
+      <a href="https://en-gb.facebook.com/">
+        <img src="../robot-juice-images/facebook.jpg" alt="facebook logo" class="social"/>
+      </a>
+      <h4 class="purchase_h4">SHARE</h4>
+      <p class="purchase_description">Robot Juice bike oil stops rust and other corrosion from starting. Applied to already corroding metals it breaks down the corrosion and starts preventing it from building up and protects from point of contact.</p>
+    </aside>
+  </div>
+  <!--The next artile is for the similar products section.
+  -->
+  <article class="similar">
+    <h3>Similar Products</h3>
+    <button class="similar_button">Sim <br> prod <br> ONE</button>
+    <button class="similar_button">Sim <br> prod <br> TWO</button>
+    <button class="similar_button">Sim <br> prod <br> THREE</button>
+    <button class="similar_button">Sim <br> prod <br> FOUR</button>
+    <button class="similar_button">Sim <br> prod <br> FIVE</button>
+    <button class="similar_button">Sim <br> prod <br> SIX</button>
+  </article>
+  <!--This is the title for the reviews section
+  -->
+  <article>
+    <h3 class="reviews_title">Product Reviews</h3>
+  </article>
+  <!--This span is where the JS will load the reviews into
+  -->
+  <span class="reviews_container" id="product_reviews">
+  </span>
+  <!--The next two divs are for the buttons to show more or less reviews
+      The see less reviews button will be hidden until the read all reviews button is clicked.
+  -->
+  <div class="all_reviews_container">
+    <button class="all_reviews" id="all_review_button">READ ALL REVIEWS</button>
+  </div>
+
+  <div class="less_reviews_container">
+    <button class="hidden" id="less_review_button">SEE LESS REVIEWS</button>
+  </div>
+</div>
+<!--The following lines until line 142 are creating the first section of the footer
+-->
+<div class="first_footer_color">
+  <footer>
+    <div class="first_footer">
+      <img src="../robot-juice-images/cyclemagazine.jpg" alt="book front cover with a person riding a bike" class="footer_img">
+      <div class="footer_reviews">
+      <h3>Latest Reviews</h3>
+      <p>Cycling magazine has given Robot Juice a 5 star rating in its latest reviews of dry lubricants. Robot Juice Dry lube was rated the highest out of over 40 top brand dry lubs.</p>
+     </div>
+      <aside class="footer_links">
+        <h3> Links</h3>
+        <p><a href="https://www.edgehill.ac.uk/" class="footer_link">Edge Hill University</a></p>
+        <p><a href="https://www.edgehill.ac.uk/computerscience/people/academic-staff/david-walsh/#gref" class="footer_link">Dave Walsh</a></p>
+        <p><a href="https://twitter.com/walsh_d" class="footer_link">https://twitter.com/walsh_d</a></p>
+        <p><a href="https://www.edgehill.ac.uk/courses/web-design-and-development/#gref" class="footer_link">CIS1110-Web Design and Development module</a></p>
+      </aside>
+    </div>
+  </footer>
+</div>
+<!--The following lines until line 158 are creating the second section of the footer
+-->
+  <div class="second_footer_color">
+  <footer>
+  <div class="second_footer">
+    <p class="second_footer_p1">Robot Juice Fictitious Products Not Ltd., Unit 9 3/4, Pivet Drive, Little Whingeing, Surrey DN18 5RP</p>
+    <aside class="second_footer_aside1">
+      <p>Contact Us | Privacy | Terms & Conditions | Accessibility</p>
+    </aside>
+    <p class="second_footer_p2">Telephone: +44 (0)1695 657648. Email: walshd@edgehill.ac.uk</p>
+    <aside class="second_footer_aside2">
+      <p>Copyright © 2018 Dave Walsh. Design by Dave Walsh</p>
+    </aside>
+  </div>
+  </footer>
+</div>
+</div>
+  </body>
+</html>
